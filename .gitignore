@@ -1,5 +1,18 @@
+# Unreal Generated Files
+Build/
+Binaries/
+DerivedDataCache/
+Intermediate/*
+Saved/
+Content/StarterContent/Textures
+Content/StarterContent/HDRI
+
+# VC Generated Files
+*.VC.db
+
 # Visual Studio 2015 user specific files
 .vs/
+.localhistory/
 
 # Visual Studio 2015 database file
 *.VC.db
@@ -18,6 +31,8 @@
 *.so
 *.dylib
 *.dll
+*.pdb
+*.exp
 
 # Fortran module files
 *.mod
@@ -50,18 +65,6 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
-
-# Builds
-Build/*
-
-# Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!Build/*/
-Build/*/**
-!Build/*/PakBlacklist*.txt
-
-# Don't ignore icon files in Build
-!Build/**/*.ico
 
 # Built data for maps
 *_BuiltData.uasset
@@ -71,7 +74,10 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Plugins
+Plugins/*/Binaries/*
+Plugins/*/Intermediate/*
