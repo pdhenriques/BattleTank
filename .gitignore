@@ -2,10 +2,8 @@
 Build/
 Binaries/
 DerivedDataCache/
-Intermediate/*
+Intermediate/
 Saved/
-Content/StarterContent/Textures
-Content/StarterContent/HDRI
 
 # VC Generated Files
 *.VC.db
@@ -81,3 +79,6 @@ DerivedDataCache/*
 # Plugins
 Plugins/*/Binaries/*
 Plugins/*/Intermediate/*
+
+# Other
+Content/StarterContent/
